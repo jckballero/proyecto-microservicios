@@ -8,5 +8,4 @@ import org.springframework.stereotype.Service;
 @Service
 public class AlumnoServiceImpl extends CommonServiceImpl<Alumno, AlumnoRepository> implements AlumnoService{
 
-
 }
