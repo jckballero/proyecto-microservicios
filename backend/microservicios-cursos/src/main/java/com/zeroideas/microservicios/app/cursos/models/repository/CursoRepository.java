@@ -1,4 +1,7 @@
 package com.zeroideas.microservicios.app.cursos.models.repository;
 
-public interface CursoRepository {
+import com.zeroideas.microservicios.app.cursos.models.entity.Curso;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CursoRepository extends CrudRepository<Curso, Long> {
 }
